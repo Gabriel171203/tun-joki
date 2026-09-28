@@ -1,0 +1,30 @@
+# dependencies (termasuk node_modules di dalam folder tooling)
+node_modules/
+
+# next.js
+/.next
+/out
+
+# production
+/build
+
+# rahasia env: jangan pernah ikut ter-commit
+.env
+.env.*
+!.env.example
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# misc
+.DS_Store
+*.pem
+*.log
+nohup.out
+.vercel
+
+# logs
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
